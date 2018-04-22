@@ -1,0 +1,21 @@
+{
+    "name": "surya/media",
+    "description": "Media packages management for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "I Gede Surya Herdiyanto",
+            "email": "suryaherdiyanto@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=7.0.0",
+      "intervention/image": "^2.4",
+      "dingo/api": "2.0.0-alpha1",
+    },
+    "autoload": {
+      "psr-4": {
+        "Surya\\": "src/"
+      }
+    }
+}
